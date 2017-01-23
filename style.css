@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+  background-image: url("http://7606-presscdn-0-74.pagely.netdna-cdn.com/wp-content/uploads/2016/11/Dubai-Business-Directory-Yellow-Pages-Online.jpg");
+}
+
+nav {
+  text-align: center;
+}
+
+nav > a {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+nav > a:not(:last-child) {
+  border-right: 1px solid white;
+}
+
+nav>a:last-child {
+  padding: 10px;
+}
+
+
+h1{
+  text-align: center;
+  font-size: 90px;
+  font-family: "Open Sans";
+  color: rgb(164,200,224);
+}
+
+p{
+  color: white;
+  text-align: center;
+}
+
+/*#circle{
+  background: #f00;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}
+
+.verticalLine {
+  width: 1px;
+     background-color: silver;
+     height: 100%;
+     border: 2px ridge silver ;
+     border-radius: 2px;
+     position: absolute;
+  }
+  /*
